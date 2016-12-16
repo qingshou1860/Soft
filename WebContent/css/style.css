@@ -1,0 +1,237 @@
+/* CSS Document */
+body {
+	color: #333;
+	font-family: "Microsoft YaHei", "微软雅黑", "Tahoma", "Arial";
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+ul, h1, h2, h3, h4, h5, h6, p, li, input, textarea {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.w1000 {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	float: left;
+	margin-top: 10px;
+	font-size: 28px;
+	color: #ff9900;
+}
+
+.header {
+	background: url(../img/header-bg.jpg); repeat-x;
+	height: 60px;
+	width: 100%;
+}
+
+.clear {
+	clear: both;
+}
+
+.nav {
+	float: right;
+}
+
+.nav ul li {
+	float: left;
+	display: inline-block;
+}
+
+.nav ul li img {
+	margin-top: 25px;
+	margin-right: 10px;
+	width: 30px;
+	line-height: 30px;
+}
+
+.nav ul li a {
+	width: 80px;
+	font-size: 14px;
+	color: #ff9900;
+	display: inline-block;
+	line-height: 60px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.nav ul li a.on {
+	background: #ff9900;
+	color: #fff;
+}
+
+.nav ul li a:hover {
+	background: #ff9900;
+	color: #fff;
+}
+
+.width01 {
+	width: 800px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.width01 img {
+	width: 150px;
+}
+
+.nav01 {
+	float: right;
+	margin-top: 35px;
+}
+
+.nav01 select {
+	border: 1px solid #DDDDDD;
+	float: left;
+	font-size: 14px;
+	height: 30px;
+	line-height: 100px;
+	margin: 0 5px 0 0;
+	padding: 5px;
+}
+
+.nav01 ul li {
+	float: left;
+	width: 480px display: inline-block;
+}
+
+.nav01 input {
+	float: left
+}
+
+.nav01 .ssk {
+	float: left;
+	width: 315px;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #f55c00;
+	vertical-align: middle;
+	text-indent: 2px;
+	color: #999
+}
+
+.nav01 .button {
+	margin: 0 5px 0 5px;
+	float: left;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #f55c00;
+	vertical-align: middle;
+	text-indent: 2px;
+}
+
+.nav02 {
+	width: 400px;
+	margin: auto;
+	margin-top: 5px;
+}
+
+.nav02 ul li {
+	float: left;
+	margin-left: 25px;
+}
+
+@CHARSET "UTF-8";
+
+/* a:link:未访问的链接 */
+/* a:hover:鼠标移动到链接上 */
+/* a:active:鼠标按下 */
+.dv1 {
+	padding: 5px;
+	margin-left: 15px;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #ff7744;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+a:active {
+	text-decoration: overline;
+	color: #aaaaaa;
+}
+
+.img1 {
+	width: 780px;
+}
+
+h1 {
+	text-align: center;
+	font-family: '华文行楷';
+	color: #3366ff;
+}
+
+.p1 {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 80px;
+}
+
+.img2, .img3, .img4, .img5, .img6, .img7 {
+	padding: 5px;
+	width: 200px;
+	height: 150px;
+}
+
+.dv3 {
+	height: 800px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.dv4, .dv5, .dv6, .dv7, .dv8, .dv9 {
+	width: 200px;
+	height: 180px;
+	border: 1px dotted gray;
+	float: left;
+	margin-top: 10px;
+	margin-left: 90px;
+}
+
+.a3, .a4, .a5, .a6, .a7, .a8 {
+	margin-left: 30px;
+}
+
+#btn1, #btn2, #btn3, #btn4, #btn5, #btn6 {
+	margin-left: 15px;
+}
+
+.font25 {
+	margin: auto;
+	font-size: 25px;
+	text-align: center;
+}
+
+.dv10 {
+	margin-top:20px;
+	margin: 0 auto;
+	font-size: 12px;
+	text-align: center;
+}
+.dvMain{
+	width:1000px;
+	margin: 0 auto;
+}
+.dvMain table tr td{
+	width:100px
+	margin:0 auto;
+	text-align:center;
+	
+}
+.dvMain table tr td input{
+	margin:0 auto;
+	text-align:center;
+	margin-left: 10px;
+}
