@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -64,8 +63,8 @@
 					<li>直通车</li>
 					<li><img src="img/微薄.JPG" /></li>
 					<li><img src="img/微信.JPG" /></li>
-					<li><a href="#"> 登录</a></li>
-					<li><a href=" #"> 注册 </a></li>
+					<li><a href="log.jsp"> 登录</a></li>
+					<li><a href=" register.jsp"> 注册 </a></li>
 					<li><a href="#"> 设为首页</a></li>
 					<li><a href="#"> 加入收藏</a></li>
 				</ul>
